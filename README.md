@@ -3,6 +3,9 @@
 # NEO-SmoothTween
 This is a Tween module that will force server tweens into the client for MAXIMIUM SMOOTHNESS
 
+## License and usage
+This project is licensed under the MIT license
+
 # Instalation
 ### Adding to your Roblox Project
 ##### Adding through github files
