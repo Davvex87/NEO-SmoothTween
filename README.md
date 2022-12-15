@@ -10,8 +10,14 @@ This project is licensed under the [MIT license](LICENSE), you are allowed to co
  - [x] Supports all your ``TweenInfo.new()`` arguments, including but not limited to ``repeatCount``, ``reverse`` and ``delay``
  - [x] Play, Pausing, Stopping and Canceling tweens with 1 simple line of code
  - [x] 1 time use Tween() function for ease of scripting
- - [x] Supports all your TweenInfo.new() arguments, including but not limited to ``repeatCount``, ``reverse`` and ``delay``
- - [ ] test342
+ - [x] Garbage collection of SmoothTweens (finally prevent memory leaks on tweens)
+ - [x] Tween override when a new tween with the same instance is declared
+ - [x] Tweening models
+ - [ ] Tweening models size
+ - [ ] Tweening Color3Sequences and NumberSequences
+ - [ ] Custom easing styles
+ - [ ] All client tweens perfectly synched with server tweens
+ - [ ] Debuging mode
 
 # Instalation
 ### Adding to your Roblox Project
