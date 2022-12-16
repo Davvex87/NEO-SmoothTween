@@ -1,7 +1,16 @@
-© [NEO Inc](http://neo.bloxy.pro/) - 2022
+###### © [NEO Inc](http://neo.bloxy.pro/) - 2022
+
+###### This project is owned by the roblox company NEO Inc., all public assets are to be credited unless there's specification to do not so, otherwise your project may suffer credit or shutdown request.
 
 # NEO-SmoothTween
-This is a Tween module that will force server tweens into the client for MAXIMIUM SMOOTHNESS
+This is a Tween module that will force server tweens into the client for
+ > Smooth Tweens
+ 
+ > Ease of coding
+ 
+ > More Tweening possibilities
+ 
+ > More Tweening features that roblox's TweenService doesn't have
 
 ## License and usage
 This project is licensed under the [MIT license](LICENSE), you are allowed to copy, modify, merge, publish, distribute, sublicense and freely use this resource in your projects, **no credits are required**, but it would be nice to do so :)
@@ -13,8 +22,8 @@ This project is licensed under the [MIT license](LICENSE), you are allowed to co
  - [x] Garbage collection of SmoothTweens (finally prevent memory leaks on tweens)
  - [x] Tween override when a new tween with the same instance is declared
  - [x] Tweening models
- - [ ] Tweening models size
- - [ ] Tweening Color3Sequences and NumberSequences
+ - [x] Tweening models size
+ - [x] Tweening Color3Sequences and NumberSequences
  - [ ] Custom easing styles
  - [ ] All client tweens perfectly synched with server tweens
  - [ ] Debuging mode
