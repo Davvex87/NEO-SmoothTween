@@ -24,9 +24,10 @@ This project is licensed under the [MIT license](LICENSE), you are allowed to co
  - [x] Tweening models
  - [x] Tweening models size
  - [x] Tweening Color3Sequences and NumberSequences
+ - [x] Custom Tween Classes
  - [ ] Custom easing styles
  - [ ] All client tweens perfectly synched with server tweens
- - [ ] Debuging mode
+ - [ ] Debuging mode (no debubing cus i'm too lazy to make a proper debug feature)
 
 # Instalation
 ### Adding to your Roblox Project
@@ -60,7 +61,7 @@ Don't worry about it overloading your game with tons of modules/instances, the s
    
    - `instance` - Your object/instance that you want to tween
    - `tweenInfo` - Your TweenInfo, used by TweenService, see the original documentation [here](https://create.roblox.com/docs/reference/engine/datatypes/TweenInfo)
-   - `cframe` - Your new [CFrame](https://create.roblox.com/docs/scripting/luau/cframe)
+   - `cframe` - Your new [CFrame](https://create.roblox.com/docs/reference/engine/datatypes/CFrame)
  
   
  #### ModelSizeTween.new(instance:Model, tweenInfo:TweenInfo, size:vector3):modelSizeTween
@@ -69,7 +70,7 @@ Don't worry about it overloading your game with tons of modules/instances, the s
    
    - `instance` - Your object/instance that you want to tween
    - `tweenInfo` - Your TweenInfo, used by TweenService, see the original documentation [here](https://create.roblox.com/docs/reference/engine/datatypes/TweenInfo)
-   - `size` - Your new [Vector3](https://create.roblox.com/docs/scripting/luau/vector3) size, **MODELS DOWN HAVE SIZE PROPERTIES, SO THE SIZE PROPERTY WILL BE USED AS A MULTIPLIER INSTEAD, NOT TO CHANGE THE MODELS EXACT SIZE!!**
+   - `size` - Your new [Vector3](https://create.roblox.com/docs/reference/engine/datatypes/Vector3) size, **MODELS DOWN HAVE SIZE PROPERTIES, SO THE SIZE PROPERTY WILL BE USED AS A MULTIPLIER INSTEAD, NOT TO CHANGE THE MODELS EXACT SIZE!!**
  
   
  #### NumberSequenceTween.new(instance:numberSequence, tweenInfo:TweenInfo, numberSequence:numberSequence):numberSequenceTween
